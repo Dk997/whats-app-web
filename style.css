@@ -1,0 +1,61 @@
+*{
+    box-shadow: inset;
+}
+
+ body{
+    background-color: rgba(130, 18, 221, 0.664);
+}
+
+div{
+    position:absolute;
+    top:50px;
+    left:500px;
+    border:8px solid black;
+    width:420px;
+    height:670px;
+    padding: 5px;
+    align-items: center;
+    background-color:rgba(231, 175, 101, 0.712);
+}
+h2{
+    color:rgb(53, 2, 148);
+    font-family: Britannic Bold;
+    text-shadow: 1px 1px;
+    font-style: bold;
+}
+#numb{
+    border:3px solid rgba(0, 0, 0, 0.685);
+    border-radius: 10px;
+    width:350px;
+    height: 35px;
+}
+#message{
+    border: 3px solid rgba(0, 0, 0, 0.685);
+    border-radius: 10px;
+    width: 350px;
+    height: 400px;
+}
+
+#send{
+    border: 1px solid green;
+    background-color: rgb(9, 223, 9);
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Britannic Bold;
+    
+}
+#send:hover{
+    cursor: pointer;
+}
+::placeholder{
+    font-size: 16px;
+}
+#numb::placeholder{
+    padding: 15px;
+}
+#message::placeholder{
+    padding: 10px;
+}
